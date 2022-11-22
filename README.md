@@ -1,16 +1,16 @@
-# riazAzmat
-A drag and drop telcom application
+# RiazAzmat Telcom App
 
+A drag and drop telcom application
 
 ## Project Proposal
 Hey Azmat this is an outline of how I want to achieve tasks under a time frame.
 
 ### Outline
 
-| Task           |  Time Frame     |Specifics | Execution Protocol |
+| Task           |  Time Frame     |Specifics | Budget |
 | -------------  |  -------------  |------    | ----------------|
-| UI Features        |  1 week | Build a simple tool  | bu |
-| Portal and Backend  | Fri 24 June 22  |  Marker cluster, Tool Bar, Slide menu with instructions | empty|
+| UI Features        |  1 week | Build a simple tool  | $800 |
+| Portal and Backend  | 1 week  |  User management platform | $800|
 
 #### Detailed Project Execution
 
@@ -27,5 +27,24 @@ Hey Azmat this is an outline of how I want to achieve tasks under a time frame.
 - Have a comparison of previous and post routes.
 
 ##### Live Tracking Features
+- To attain this, we can simply use the device location. 
+- or, get data from an API of a car tracking device that provides information regarding the location of the car and team.
+
+
+##### Dashboard
+- From the slides, the dashboard will have a primary screen that will enable the admin to see
+  - Weekly progress 
+  - Overall progress
+  - Management of the  teams 
+  - Completed clusters
+  
+- The dashboard will be simple and easy to navigate.
+
+##### Tech Stack
+-  The UI will be created using JS, LeafletJs/Mapbox for the mapping library.
+-  The backend will be PHP or NodeJs
+-  A simple postGIS enabled postgreSQL to support spatial queries.
+-  ReactJS for the user interface.
+
 
 
